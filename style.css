@@ -1,0 +1,138 @@
+
+ 
+.artstorm{
+    background-color: rgb(42, 40, 40);
+    width: 100%;
+    height: 70px;
+   display: flex;
+   justify-content: space-between;
+   color: white;
+}
+.artsormlogo{
+  margin-left: 100px;
+}
+.xsolla{
+    font-size: 11px;
+    color: #fff;
+    font-family: 'Abel', sans-serif;
+    position: absolute;
+     top: 3.1rem;
+    left: 11rem;
+}
+.list{
+    width: 300px;
+    background-color: rgb(42, 40, 40);
+    height: 70px;
+   margin-right:5%;
+    
+}
+.menu{
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.menulist .english{
+    display: inline;
+  
+}
+.togglelogo{
+    display: none;
+}
+@media(max-width:1103px){
+    .togglelogo{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    .togglelogo
+    {
+     margin-left: 84%;
+     margin-top: 20px;
+    }
+   .is-active{
+    background-color:  rgb(42, 40, 40);
+    display: block;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   width: 100%;
+   position: absolute;
+   left: 0;
+   right: 0;
+   }
+ 
+
+}
+@media(max-width:992px){
+    .artsormlogo{
+        margin-left: 12px;
+    }
+    .xsolla{
+            font-size: 11px;
+            color: #fff;
+            font-family: 'Abel', sans-serif;
+            position: absolute;
+            left: 85px;
+        
+    }
+}
+.maintitle{
+    color: #FF5B2B;
+    text-decoration: none;
+}
+.shipimg{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.download {
+    width: 230px;
+    margin-left: 3px;
+    margin-top: 12px;
+}
+/* .appstore{
+    width: 230px;
+    margin-left: 1px;
+} */
+
+.footerwhite{
+    height: 140px;
+    /* background-color: aqua; */
+   
+}
+
+@media (min-width:1200px){
+    .down1{
+        margin-left: 18px;
+    }
+}
+.footerimg{
+  background-image: url(artstorm-bg-footer.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+ 
+}
+.imgtext{
+    color: #fff;
+
+}
+.col-2{
+    border:1px solid black;
+}
+ span.cloud {
+         /* font-size: 50px; */
+         color: rgb(239, 239, 239);
+         fill: rgb(239, 239, 239);
+    }
+
+.copy{
+    margin-left: 65rem;
+    margin-top: 1rem;
+}
+  
